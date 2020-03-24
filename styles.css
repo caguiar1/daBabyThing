@@ -1,0 +1,45 @@
+body{
+    background-color: red;
+}
+
+p{
+    color: white;
+    font-size: 150%;
+    margin-top: 2%;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+}
+
+@keyframes bgcolor {
+    0% {
+        background-color: blue
+    }
+
+    100% {
+        background-color: green
+    }
+
+}
+
+div.colors {
+    height: 200vh;
+    width: 100vw;
+    -webkit-animation: bgcolor 3s infinite;
+    animation: bgcolor 1.5s infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+}
+
+img{
+    height: 200px;
+    width: 300px;
+}
+
+#spanKEKW{
+    float: right;
+}
+
+#par{
+    margin-top: -90%;;
+}
